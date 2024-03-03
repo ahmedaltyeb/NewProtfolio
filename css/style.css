@@ -803,13 +803,13 @@ textarea {
   background-image: url(assets/png/Port-m/1.png);
 }
 .card:nth-child(2):before {
-  background-image: url(assets/png/Port-m/1.png);
+  background-image: url(assets/png/Port-m/2.png);
 }
 .card:nth-child(3):before {
-  background-image: url(assets/png/Port-m/1.png);
+  background-image: url(assets/png/Port-m/3.png);
 }
 .card:nth-child(4):before {
-  background-image: url(assets/png/Port-m/1.png);
+  background-image: url(assets/png/Port-m/4.png);
 }
 
 .content {
