@@ -612,7 +612,150 @@
         </div>
       </div>
     </section>
+ <!--- protfolio section design-->
 
+        <section class="protfolio" id="protfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+                <!--1-->
+            <div class="protfolio-containter">
+                <div class="protfolio-box">
+                    <img src="images/png/Home page.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4>My Portfolio</h4>
+                        <p>I'm a web developer with over 1
+                        of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="protfolio-box">
+                    <img src="images/png/FoodP.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4> Restaurant Project </h4>
+                        <p>I'm a web developer with over 1 of experience in the industry.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--3-->
+                <div class="protfolio-box">
+                    <img src="images/png/RESMP.png" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Real Estate System</h4>
+                        <p> "Welcome to my portfolio! I'm passionate about 
+                            Front End Developer and dedicated to delivering high-quality work."</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--4-->
+                <div class="protfolio-box">
+                    <img src="images/A5.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>I'm a web developer with over 
+                        1 of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--5-->
+                <div class="protfolio-box">
+                    <img src="images/A6.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web </h4>
+                        <p>I'm a web developer with over 
+                        1 of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <!--6-->
+                <div class="protfolio-box">
+                    <img src="images/A2.jpg" alt="">
+                    <div class="protfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>I'm a web developer with over [Number of Yea
+                        rs of experience in the industry.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <style>
+      .protfolio {
+    background: var(--second-bg-color);
+}
+
+.protfolio h2 {
+    margin-bottom: 4rem;
+}
+
+.protfolio-containter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.protfolio-containter .protfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow:  0 0  1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.protfolio-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.protfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+.protfolio-box .protfolio-layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(230, 222, 222, 0.1), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.protfolio-box:hover .protfolio-layer {
+    transform: translateY(0);
+}
+
+.protfolio-layer h4{
+    font-size: 3rem;
+}
+
+.protfolio-layer p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+}
+
+.protfolio-layer a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+
+.protfolio-layer a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
+    </style>
     <!--Contact Section -->
 
     <section id="contact" class="contact sec-pad dynamicBg">
